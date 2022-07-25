@@ -4,6 +4,7 @@
   border-radius: 8px;
   background-color: bisque;
   overflow: hidden;
+  position: relative;
 }
 
 .recipeTile__image {
@@ -40,9 +41,32 @@
   align-self: flex-start;
 }
 
+.view__button:hover {
+  text-decoration: none;
+  text-align: center;
+  width: 130px;
+  padding: 10px 0;
+  background-color: white;
+  color: #76323f;
+  border-radius: 5px;
+  margin-top: 20px;
+  align-self: flex;
+}
+
 .flex__container {
   font-size: 15px;
   display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 2px;
+}
+.heart {
+  width: 2rem;
+}
+.bottom__row {
+  bottom: 0;
+  font-size: 15px;
+  display: relative;
   align-items: center;
   justify-content: space-between;
 }
